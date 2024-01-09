@@ -1,0 +1,170 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #1e202b;
+}
+:root {
+  --neon: #009ad8;
+  --gray: #bfc1c8;
+  --head1: #2d303d;
+  --body1: #323544;
+  --head2: #222531;
+  --body2: #262936;
+}
+input::-webkit-input-placeholder {
+  color: rgb(187, 187, 187) !important;
+  font-size: 14px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ------------------------ */
+
+/* navbar */
+
+.nav-p {
+  font-size: 10px;
+  color: var(--gray);
+}
+
+.nav-link {
+  font-weight: 300;
+  font-size: 14px;
+  margin-right: 10px;
+  color: #fff;
+  border: transparent 2px solid;
+  padding-block: 3px !important;
+  padding-inline: 25px !important;
+  transition: all 0.3s;
+}
+.nav-link:hover {
+  color: var(--neon);
+  border: var(--neon) 2px solid;
+  border-radius: 35px;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--neon);
+  border: var(--neon) 2px solid;
+  border-radius: 35px;
+  padding-block: 3px;
+  padding-inline: 25px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* location */
+.weather {
+  background-image: url(../Assests/imgs/banner.png);
+  background-repeat: no-repeat;
+}
+
+.location {
+  padding-top: 80px;
+}
+.form-control {
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  color: #fff !important;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+.butn {
+  color: #fff;
+  padding-block: 12px;
+  padding-inline: 40px;
+  background-color: var(--neon);
+  border-radius: 25px;
+  border: none;
+  font-size: 14px;
+}
+.locationbtn {
+  position: absolute;
+  right: 5px;
+  top: 4px;
+}
+
+.wfs {
+  font-size: 14px;
+}
+.header1 {
+  border-radius: 10px 0 0 0;
+}
+.head1 {
+  background-color: var(--head1);
+  color: var(--gray);
+}
+.wbod1 {
+  background-color: var(--body1);
+  color: #fff;
+  height: 300px;
+}
+.wbody1 {
+  border-radius: 0 0 0 10px;
+}
+.city {
+  font-size: 18px;
+  color: var(--gray);
+}
+.currentdeg {
+  font-size: 80px;
+}
+.state {
+  color: var(--neon);
+  font-size: 14px;
+}
+.rate {
+  color: var(--gray);
+  font-size: 14px;
+}
+.header2 {
+  background-color: var(--head2);
+  color: var(--gray);
+}
+.wbody2 {
+  background-color: var(--body2);
+  height: 300px;
+}
+.maxtemp {
+  font-size: 24px;
+}
+.mintemp {
+  color: var(--gray);
+}
+.header3 {
+  border-radius: 0 10px 0 0;
+}
+.wbody3 {
+  border-radius: 0 0 10px 0;
+}
+.wbody3 span {
+  margin-bottom: 40px;
+}
+
+/* ---------------------------------------------------- */
+
+footer {
+  background-color: #262936;
+}
+
+.footer-icon {
+  height: 45px;
+  width: 45px;
+  color: var(--neon);
+  transition: all 0.5s;
+}
+
+.footer-icon:hover {
+  color: #fff !important;
+  background-color: var(--neon) !important;
+}
+
+.div {
+  left: 83%;
+  top: 5%;
+  background-color: var(--neon);
+}
